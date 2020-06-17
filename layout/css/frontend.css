@@ -1,0 +1,297 @@
+/*start main rules*/
+body
+{
+	background-color: #F4F4F4;
+	font-size: 17px;
+}
+h1
+{
+	font-size: 50px;
+	margin: 30px 0;
+	font-weight: bold;
+	color: #666;
+}
+.input-container
+{
+	position: relative;
+}
+.asterisk
+{
+	font-size: 20px;
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	color: #D20707;
+}
+.main-form .asterisk
+{
+	font-size: 30px;
+	position: absolute;
+	right: 30px;
+	top: 7px;
+	color: #D20707;
+}
+.nice-message
+{
+	padding: 10px;
+	background-color: #FFF;
+	margin: 10px 0;
+	border-left: 5px solid #080;
+}
+/*end main rules*/
+
+/*start bootstrap edits*/
+.navbar
+{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.nav > li > a,
+.navbar-brand
+{
+	padding: 15px 13px;
+}
+.navbar-brand
+{
+	font-size: 1em;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover
+{
+	background-color: #3498db;
+}
+.dropdown-menu
+{
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+	background-color: #3498db;
+}
+.dropdown-menu > li > a
+{
+	color: #FFF;
+	padding: 10px 15px;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover
+{
+	color: #FFF;
+	background-color: #8e44ad;
+}
+.form-control
+{
+	position: relative;
+}
+/*end bootstrap edits*/
+
+/*start header*/
+.upper-bar
+{
+	padding: 5px;
+	background-color: #FFF;
+}
+.my-image
+{
+	max-width: 35px;
+	max-height: 35px;
+}
+/*end header*/
+
+/*start login page*/
+.login-page form,
+.the-errors
+{
+	max-width: 400px;
+	margin: auto;
+}
+.login-page form input
+{
+	margin-bottom: 10px;
+}
+.login-page [data-class="login"].selected
+{
+	color: #337AB7;
+}
+.login-page [data-class="signup"].selected
+{
+	color: #C0C0C0;
+}
+.login-page h1
+{
+	color: #C0C0C0;
+}
+.login-page h1 span
+{
+	cursor: pointer;
+}
+.login-page .signup
+{
+	display: none;
+}
+.the-errors .msg
+{
+	padding: 10px;
+	margin-bottom: 8px;
+	text-align: left;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	border-left: 5px solid #cd6858;
+	background-color: #FFF;
+	color: #919191;
+}
+.the-errors .error
+{
+	border-left: 5px solid #cd6858;
+}
+/*end login page*/
+
+/*start categories page*/
+.item-box
+{
+	position: relative;
+}
+.item-box .price
+{
+	background-color: #B4B4B4;
+	padding: 3px 10px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	font-weight: bold;
+	color: #FFF;
+}
+.item-box .approve-status
+{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	background-color: #b85a5a;
+	color: #FFF;
+	padding: 3px 5px;
+}
+.item-box .caption p
+{
+	height: 50px;
+	max-height: 50px;
+}
+/*end categories page*/
+
+/*start profile page*/
+.information
+{
+	margin-top: 20px;
+}
+.information ul
+{
+	padding: 0;
+	margin: 0;
+}
+.information ul li
+{
+	padding: 10px;
+}
+.information ul li:nth-child(odd)
+{
+	background-color: #EEE;
+}
+.information ul li span
+{
+	display: inline-block;
+	width: 150px;
+}
+.thumbnail .date
+{
+	text-align: right;
+	font-size: 13px;
+	font-weight: bold;
+	color: #AAA;
+}
+.information .btn
+{
+	margin-top: 10px;
+}
+/*end profile page*/
+
+/*start items page*/
+.item-info h2
+{
+	padding: 10px;
+	margin: 0;
+}
+.item-info p
+{
+	padding: 10px;
+}
+.item-info ul li
+{
+	padding: 10px;
+}
+.item-info ul li:nth-child(odd)
+{
+	background-color: #e8e8e8;
+}
+.item-info ul li span
+{
+	display: inline-block;
+	width: 150px;
+}
+.tags-items a
+{
+	display: inline-block;
+	background-color: #e2e2e2;
+	padding: 3px 10px;
+	border-radius: 5px;
+	color: #666;
+	margin-right: 5px;
+}
+.add-comment h3
+{
+	margin: 0 0 10px;
+}
+.add-comment textarea
+{
+	display: block;
+	margin-bottom: 10px;
+	width: 500px;
+	height: 150px;
+}
+.comment-box
+{
+	margin-bottom: 20px;
+}
+.comment-box img
+{
+	max-width: 100px;
+	margin-bottom: 10px;
+}
+.comment-box .lead
+{
+	background-color: #e0e0e0;
+	position: relative;
+	padding: 10px;
+	margin-top: 25px;
+}
+.comment-box .lead:before
+{
+	content: "";
+	width: 0;
+	height: 0;
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent #e0e0e0 transparent transparent;
+	position: absolute;
+	left: -30px;
+	top: 10px;
+}
+/*end items page*/
+
+/*start our custom*/
+.custom-hr
+{
+	border-top: 1px solid #c9c9c9;
+}
+/*end our custom*/
